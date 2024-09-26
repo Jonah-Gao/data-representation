@@ -25,5 +25,5 @@ def char_to_unicode(char, base=16):
 char = input('char: ')
 unicode = input('unicode: ').upper()
 
-print(char_to_unicode(char, 2))
+print(char_to_unicode(char))
 print(unicode_to_char(unicode))
